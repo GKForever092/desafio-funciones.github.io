@@ -1,20 +1,20 @@
-const div1 = document.getElementById ("div1")
-const div2 = document.getElementById ("div2")
-const div3 = document.getElementById ("div3")
-const div4 = document.getElementById ("div4")
+const Square1 = document.getElementById ("Square1")
+const Square2 = document.getElementById ("Square2")
+const Square3 = document.getElementById ("Square3")
+const Square4 = document.getElementById ("Square4")
 
-div1.addEventListener("click", function(event){
+Square1.addEventListener("click", function(event){
     event.target.style.backgroundColor = 'black'
 })
 
-div2.addEventListener("click", function(event){
+Square2.addEventListener("click", function(event){
     event.target.style.backgroundColor = 'black'
 })
 
-div3.addEventListener("click", function(event){
+Square3.addEventListener("click", function(event){
     event.target.style.backgroundColor = 'black'
 })
 
-div4.addEventListener("click", function(event){
+Square4.addEventListener("click", function(event){
     event.target.style.backgroundColor = 'black'
 })
